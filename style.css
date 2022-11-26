@@ -116,11 +116,9 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10%;
 }
 
-.contacts::last-child {
-    margin-bottom: 10%;
-}
 
 .contacts a {
     border-color: rgb(53, 48, 48);   
