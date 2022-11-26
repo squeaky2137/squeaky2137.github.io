@@ -111,6 +111,31 @@ div {
     margin-top: 10%;
 }
 
+.scroll {
+    font-size: 30px;
+    color: yellow;
+    position: absolute;
+    bottom: 10px;
+    animation: scoll-text 1s infinite;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+@keyframes scoll-text {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
 .contacts {
     color: white;
     display: flex;
