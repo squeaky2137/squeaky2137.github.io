@@ -118,6 +118,10 @@ div {
     align-items: center;
 }
 
+.contacts::last-child {
+    margin-bottom: 10%;
+}
+
 .contacts a {
     border-color: rgb(53, 48, 48);   
     border-width: 1px;
